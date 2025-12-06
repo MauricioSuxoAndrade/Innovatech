@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>NeuroSynapsis – Neurotecnología accesible y científica</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+	<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg ns-navbar border-bottom border-light-subtle bg-white bg-opacity-90 sticky-top">
+	<div class="container py-2">
+		<a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+			<img
+				src="assets/img/cortado.png"
+				alt="NeuroSynapsis"
+				class="me-1"
+				style="height:32px; width:auto;"
+			/>
+			<span class="ns-heading fw-semibold">NeuroSynapsis</span>
+		</a>
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#mainNavbar"
+			aria-controls="mainNavbar"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="mainNavbar">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-2">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="quienes-somos.html">Quiénes somos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="soluciones.html">Soluciones</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="segmentos.html">Segmentos</a>
+				</li>
+				<li class="nav-item me-lg-2">
+					<a class="nav-link" href="contacto.html">Contacto</a>
+				</li>
+				<li class="nav-item">
+					<a class="btn ns-gradient-btn" href="contacto.html">
+						Explorar pilotos
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+	<!-- HERO -->
+	<section class="ns-hero py-5 py-md-5">
+		<div class="container py-4">
+			<div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    
+                    <h1 class="ns-heading fw-bold mb-3 lh-sm">
+                        Neurotecnología accesible<br />
+                        para autonomía digital y rendimiento cognitivo.
+                    </h1>
+                    <p class="mb-4" style="font-size: 0.95rem;">
+                        NeuroSynapsis desarrolla soluciones basadas en inteligencia artificial, análisis de neurodatos y principios de neurociencia para que personas e instituciones puedan medir, entrenar y ampliar sus capacidades cognitivas, con rigor científico y enfoque en accesibilidad.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <a href="contacto.html" class="btn ns-gradient-btn">
+                            Agendar conversación
+                        </a>
+                        <a href="soluciones.html" class="btn ns-outline-btn">
+                            Ver ecosistema tecnológico
+                        </a>
+                    </div>
+                </div>
+				<div class="col-lg-6">
+        <div id="heroCarousel" class="carousel slide ns-hero-carousel" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="assets/img/1.png" class="d-block w-100" alt="Imagen 1">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/img/2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/img/3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/img/4.jpg" class="d-block w-100" alt="Imagen 4">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/img/5.jpg" class="d-block w-100" alt="Imagen 5">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+
+            </div>
+        </div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- QUÉ ES NEUROSYNAPSIS -->
+	<section class="py-5 bg-white">
+		<div class="container">
+			<div class="row g-4 align-items-start">
+				<div class="col-lg-6">
+					<p class="ns-section-title mb-1">Quiénes somos</p>
+					<h2 class="ns-heading ns-section-subtitle fw-bold mb-3 text-dark">
+						Startup de neuroinformática aplicada.
+					</h2>
+					<p class="mb-2" style="font-size: 0.95rem;">
+						Somos una empresa de neuroinformática aplicada dedicada al desarrollo de herramientas tecnológicas basadas en inteligencia artificial, análisis de neurodatos y neurociencia para potenciar las capacidades cognitivas humanas.
+					</p>
+					<p class="mb-2" style="font-size: 0.95rem;">
+						Pertenecemos al sector cuaternario de la economía: construimos soluciones de alto contenido científico, orientadas a investigación aplicada, innovación y servicios digitales avanzados.
+					</p>
+					<ul class="list-unstyled mb-0" style="font-size: 0.9rem;">
+						<li class="mb-1">• Neurotecnología y BCI accesible para autonomía digital.</li>
+						<li class="mb-1">• IA en salud, cognición e imagenología médica.</li>
+						<li class="mb-1">• Monitoreo inteligente de signos vitales y rendimiento cognitivo.</li>
+						<li>• Diseño ético, basado en datos reales y validación científica.</li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<div class="ns-card p-4">
+						<div class="row g-3">
+							<div class="col-md-6">
+								<div class="mb-3">
+									<span class="ns-badge-soft">Misión</span>
+								</div>
+								<p style="font-size: 0.9rem;">
+									Potenciar las capacidades cognitivas de personas y organizaciones mediante el uso de inteligencia artificial y neurociencia aplicada, con herramientas accesibles y basadas en datos.
+								</p>
+							</div>
+							<div class="col-md-6">
+								<div class="mb-3">
+									<span class="ns-badge-soft">Visión</span>
+								</div>
+								<p style="font-size: 0.9rem;">
+									Liderar la innovación en neuroinformática en Bolivia y Latinoamérica, impulsando tecnología accesible, científica y responsable.
+								</p>
+							</div>
+
+                            <p class="mt-3 mb-0" style="font-size: 0.8rem; color: #6c757d;">
+									Valores alineados con el modelo de negocio y el perfil de proyecto de NeuroSynapsis.
+								</p>
+							<div class="col-12">
+								<div class="d-flex flex-wrap gap-2">
+									<span class="badge rounded-pill text-bg-light border">
+										Innovación continua
+									</span>
+									<span class="badge rounded-pill text-bg-light border">
+										Rigor científico
+									</span>
+									<span class="badge rounded-pill text-bg-light border">
+										Accesibilidad
+									</span>
+									<span class="badge rounded-pill text-bg-light border">
+										Ética y privacidad de datos
+									</span>
+									<span class="badge rounded-pill text-bg-light border">
+										Colaboración interdisciplinaria
+									</span>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MÓDULOS PRINCIPALES -->
+	<section class="py-5">
+		<div class="container">
+			<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+				<div>
+					<p class="ns-section-title mb-1">Ecosistema tecnológico</p>
+					<h2 class="ns-heading ns-section-subtitle fw-bold text-dark mb-2">
+						Módulos que combinan neurodatos, IA y accesibilidad.
+					</h2>
+					<p class="mb-0" style="font-size: 0.95rem;">
+						NeuroSynapsis se organiza en módulos que pueden funcionar de forma independiente o integrarse en una plataforma central: BCI accesible, IA cognitiva, monitoreo de signos vitales, visión por computadora médica y un dashboard web para profesionales.
+					</p>
+				</div>
+				<div class="mt-3 mt-md-0">
+					<a href="soluciones.html" class="btn btn-outline-primary rounded-pill">
+						Ver detalle de soluciones
+					</a>
+				</div>
+			</div>
+			<div class="row g-4">
+
+	<!-- MÓDULO 1 -->
+	<div class="col-md-6 col-lg-4">
+		<div class="ns-card p-4 h-100 d-flex flex-column">
+
+			<!-- Imagen del módulo -->
+			<div class="ns-module-img mb-3">
+				<img src="assets/img/m1.jpg" alt="BCI accesible">
+			</div>
+
+			<div class="mb-2">
+				<span class="ns-badge-soft">BCI accesible</span>
+			</div>
+
+			<h3 class="ns-heading h6 mb-2">Autonomía digital</h3>
+			<p class="mb-2" style="font-size: 0.88rem;">
+				Interfaces cerebro–computadora de bajo costo para controlar funciones digitales básicas: clic, desplazamiento, selección y comandos simples.
+			</p>
+
+			<ul class="mb-2" style="font-size: 0.85rem;">
+				<li>Uso de EEG accesible y señales biométricas.</li>
+				<li>Clasificación de intención y atención con IA.</li>
+				<li>Integración con aplicaciones y navegadores.</li>
+			</ul>
+
+			<p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">
+				Especialmente relevante para personas con movilidad reducida y contextos de rehabilitación.
+			</p>
+		</div>
+	</div>
+
+	<!-- MÓDULO 2 -->
+	<div class="col-md-6 col-lg-4">
+		<div class="ns-card p-4 h-100 d-flex flex-column">
+
+			<!-- Imagen del módulo -->
+			<div class="ns-module-img mb-3">
+				<img src="assets/img/m2.jpg" alt="IA cognitiva">
+			</div>
+
+			<div class="mb-2">
+				<span class="ns-badge-soft">IA cognitiva</span>
+			</div>
+
+			<h3 class="ns-heading h6 mb-2">Evaluación y entrenamiento</h3>
+			<p class="mb-2" style="font-size: 0.88rem;">
+				Módulos de neuroevaluación y entrenamiento cognitivo basados en tareas interactivas, neurodatos y biomarcadores de atención, fatiga y carga cognitiva.
+			</p>
+
+			<ul class="mb-2" style="font-size: 0.85rem;">
+				<li>Pruebas breves visuales-sonoras.</li>
+				<li>Entrenamiento adaptativo según desempeño.</li>
+				<li>Métricas y reportes de progreso.</li>
+			</ul>
+
+			<p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">
+				Para estudiantes, docentes, adultos mayores y profesionales interesados en optimizar su rendimiento.
+			</p>
+		</div>
+	</div>
+
+	<!-- MÓDULO 3 -->
+	<div class="col-md-6 col-lg-4">
+		<div class="ns-card p-4 h-100 d-flex flex-column">
+
+			<!-- Imagen del módulo -->
+			<div class="ns-module-img mb-3">
+				<img src="assets/img/m3.jpg" alt="Monitoreo y visión">
+			</div>
+
+			<div class="mb-2">
+				<span class="ns-badge-soft">Monitoreo + visión</span>
+			</div>
+
+			<h3 class="ns-heading h6 mb-2">Salud y apoyo diagnóstico</h3>
+			<p class="mb-2" style="font-size: 0.88rem;">
+				Análisis de series de tiempo fisiológicas y visión por computadora aplicada a imagenología médica para apoyar triage y monitoreo, sin reemplazar profesionales.
+			</p>
+
+			<ul class="mb-2" style="font-size: 0.85rem;">
+				<li>Registro y análisis de signos vitales.</li>
+				<li>Preclasificación de imágenes médicas.</li>
+				<li>Alertas tempranas configurables.</li>
+			</ul>
+
+			<p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">
+				Pensado para médicos, fisioterapeutas, centros de rehabilitación y proyectos de investigación.
+			</p>
+		</div>
+	</div>
+
+</div>
+
+		</div>
+	</section>
+
+	<!-- SEGMENTOS DESTACADOS -->
+<section class="py-5 bg-white">
+	<div class="container">
+		<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+			<div>
+				<p class="ns-section-title mb-1">Segmentos de usuario</p>
+				<h2 class="ns-heading ns-section-subtitle fw-bold text-dark mb-2">
+					Personas e instituciones que acompañamos.
+				</h2>
+				<p class="mb-0" style="font-size: 0.95rem;">
+					Trabajamos con personas con movilidad reducida, pacientes y adultos mayores, estudiantes y docentes, centros de salud, empresas y laboratorios que buscan soluciones científicas y accesibles.
+				</p>
+			</div>
+			<div class="mt-3 mt-md-0">
+				<a href="segmentos.html" class="btn btn-outline-secondary rounded-pill">
+					Ver todos los perfiles
+				</a>
+			</div>
+		</div>
+
+		<div class="row g-4">
+
+			<!-- CARD 1 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="ns-card-soft p-4 h-100 d-flex flex-column">
+
+					<!-- Imagen -->
+					<div class="ns-segment-img mb-3">
+						<img src="assets/img/s1.jpg" alt="Personas con movilidad reducida">
+					</div>
+
+					<span class="badge rounded-pill text-bg-light border mb-2">
+						Personas con movilidad reducida
+					</span>
+					<h3 class="ns-heading h6 mb-2">Autonomía y acceso digital</h3>
+					<p class="mb-0" style="font-size: 0.88rem;">
+						Reducimos barreras digitales con BCI accesible y control híbrido (señales cerebrales + biométricas), orientado a independencia en tareas cotidianas.
+					</p>
+				</div>
+			</div>
+
+			<!-- CARD 2 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="ns-card-soft p-4 h-100 d-flex flex-column">
+
+					<!-- Imagen -->
+					<div class="ns-segment-img mb-3">
+						<img src="assets/img/s2.jpg" alt="Pacientes y adultos mayores">
+					</div>
+
+					<span class="badge rounded-pill text-bg-light border mb-2">
+						Pacientes y adultos mayores
+					</span>
+					<h3 class="ns-heading h6 mb-2">Monitoreo y apoyo cognitivo</h3>
+					<p class="mb-0" style="font-size: 0.88rem;">
+						Herramientas para seguimiento cognitivo y fisiológico ligero, facilitando detección temprana de cambios y seguimiento desde centros de salud o el hogar.
+					</p>
+				</div>
+			</div>
+
+			<!-- CARD 3 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="ns-card-soft p-4 h-100 d-flex flex-column">
+
+					<!-- Imagen -->
+					<div class="ns-segment-img mb-3">
+						<img src="assets/img/s3.png" alt="Instituciones y empresas">
+					</div>
+
+					<span class="badge rounded-pill text-bg-light border mb-2">
+						Instituciones y empresas
+					</span>
+					<h3 class="ns-heading h6 mb-2">Datos para mejores decisiones</h3>
+					<p class="mb-0" style="font-size: 0.88rem;">
+						Plataformas y dashboards con métricas cognitivo-fisiológicas para educación, salud, bienestar laboral e investigación aplicada, con enfoque en BI e IA.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+	<!-- CTA FINAL -->
+	<section class="py-5">
+		<div class="container">
+			<div class="ns-cta-strip px-4 px-md-5 py-4">
+				<div class="row align-items-center g-3">
+					<div class="col-lg-8">
+						<h2 class="ns-heading h4 mb-2">
+							¿Quieres probar NeuroSynapsis en tu institución o proyecto?
+						</h2>
+						<p class="mb-2" style="font-size: 0.9rem;">
+							Podemos comenzar con un piloto de BCI accesible, un módulo de IA cognitiva o un prototipo de monitoreo inteligente. Diseñamos pruebas de humo, pruebas de concepto y validaciones controladas con tus usuarios.
+						</p>
+						
+					</div>
+					<div class="col-lg-4 text-lg-end">
+						<a href="contacto.html" class="btn btn-light rounded-pill fw-semibold mb-2">
+							Ir a contacto
+						</a>
+						<p class="mb-0" style="font-size: 0.8rem;">
+							Respondemos en un máximo de 48 horas hábiles.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="border-top bg-white py-3">
+		<div class="container d-flex flex-column flex-md-row justify-content-between	align-items-center gap-2 ns-footer">
+			<div>
+				&copy; <span id="year"></span> NeuroSynapsis. Todos los derechos reservados.
+			</div>
+			<div class="d-flex gap-3">
+				<a href="quienes-somos.html" class="link-secondary text-decoration-none">Quiénes somos</a>
+				<a href="soluciones.html" class="link-secondary text-decoration-none">Soluciones</a>
+				<a href="segmentos.html" class="link-secondary text-decoration-none">Segmentos</a>
+				<a href="contacto.html" class="link-secondary text-decoration-none">Contacto</a>
+			</div>
+		</div>
+	</footer>
+
+		<!-- WIDGET CHAT -->
+	<div class="ns-chat-launcher">
+		<div class="ns-chat-launcher-label">
+			¿Tienes alguna duda?
+		</div>
+		<button
+			type="button"
+			class="ns-chat-button"
+			id="nsChatToggle"
+			aria-label="Abrir asistente de NeuroSynapsis"
+		>
+			<svg
+				class="ns-chat-button-icon"
+				viewBox="0 0 24 24"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<rect
+					x="3"
+					y="4"
+					width="18"
+					height="13"
+					rx="3"
+					ry="3"
+					stroke="white"
+					stroke-width="1.6"
+				/>
+				<path
+					d="M8 18L9.8 19.6C10.9 20.6 11.5 21.1 12.1 21C12.7 20.9 13.1 20.1 14 18.5L15 16.7"
+					stroke="white"
+					stroke-width="1.6"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				<circle cx="9" cy="10" r="0.9" fill="white" />
+				<circle cx="12" cy="10" r="0.9" fill="white" />
+				<circle cx="15" cy="10" r="0.9" fill="white" />
+			</svg>
+		</button>
+	</div>
+
+	<div class="ns-chat-window" id="nsChatWindow">
+		<div class="ns-chat-window-header">
+			<div>
+				<div class="ns-chat-window-header-title">
+					Asistente de NeuroSynapsis
+				</div>
+				<div class="ns-chat-window-header-sub">
+					IA para responder sobre nuestras soluciones
+				</div>
+			</div>
+			<button
+				type="button"
+				class="ns-chat-window-close"
+				id="nsChatClose"
+				aria-label="Cerrar asistente"
+			>
+				&times;
+			</button>
+		</div>
+		<div class="ns-chat-window-body">
+			<div id="nsChatMessages" class="ns-chat-messages">
+				<div class="ns-chat-msg ns-chat-msg-bot">
+					<div class="ns-chat-msg-bubble">
+						Hola, soy el asistente IA de NeuroSynapsis. Pregúntame sobre nuestras soluciones, segmentos o cómo podemos ayudarte.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ns-chat-window-footer">
+			<form id="nsChatForm" class="ns-chat-form">
+				<input
+					type="text"
+					id="nsChatInput"
+					placeholder="Escribe tu pregunta..."
+					autocomplete="off"
+				/>
+				<button type="submit" class="ns-chat-send-btn" id="nsChatSend">
+					Enviar
+				</button>
+			</form>
+		</div>
+	</div>
+
+
+	<script>
+		document.getElementById("year").textContent = new Date().getFullYear();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/chat-widget.js"></script>
+</body>
+</html>
